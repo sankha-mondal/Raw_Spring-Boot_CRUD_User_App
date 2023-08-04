@@ -8,7 +8,7 @@ public class SrsAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SrsAppApplication.class, args);
-		System.out.println("Login_Register_Logout_Profile-Backend running on port No: 8585...");
+		System.out.println("Spring-Boot Raw User Application running on port No: 8585...");
 	}
 
 }
