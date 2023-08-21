@@ -35,7 +35,7 @@ public class User_Service {
 
 		//  Retrieve Message by Email & password | Login Operation :-   Op: 7
 
-		public String find_UserByEmailPassword(User user) {
+		public String login(User user) {
 
 			String email = user.getuEmail();
 			String password = user.getuPassword();
