@@ -175,11 +175,11 @@ public class User_Controller {
 		//  http://localhost:8585/users_credentials/user/login
 
 		@PostMapping(value = "login")
-		public String find_UserByEmailPassword(@RequestBody User user) {
+		public String login(@RequestBody User user) {
 
-				System.out.println("Controller: "+user.getuEmail());
-				//Thread.sleep(3000);
-				return userService.find_UserByEmailPassword(user);
+			System.out.println("Controller: "+user.getuEmail());
+			//Thread.sleep(3000);
+			return userService.login(user);
 		}
 
 
