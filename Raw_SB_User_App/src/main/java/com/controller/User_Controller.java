@@ -45,13 +45,13 @@ public class User_Controller {
 			return "Hello World";
 		}
 	
-	
 		//  Simple Get Operation:- Op B
 		//  http://localhost:8585/users_credentials/user/get_data
 	
 		@GetMapping("/get_data")
 		public Map<String, String> getData() {
 			return Map.of("Name","Sankha Subhra");
+		}
 
 		//  Simple Get Operation:- Op: C
 		// http://localhost:8585/users_credentials/user/get_Json
